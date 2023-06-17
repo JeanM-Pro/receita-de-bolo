@@ -8,16 +8,16 @@ body {
 .bolo-img {
   width: 100%;
   height: 60vh;
-  border: 2px solid #ffb300;
+  border: 2px solid #f38305;
 }
 
 h1 {
-  color: #ffb300;
+  color: #f38305;
   font-size: 40px;
 }
 
 h2 {
-  color: #ffb300;
+  color: #f38305;
 }
 
 h3 {
@@ -26,4 +26,31 @@ h3 {
 
 li {
   font-weight: 500;
+}
+
+.video-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h4 {
+  text-align: center;
+  transition: 0.8s;
+}
+
+a {
+  text-decoration: none;
+  color: #f38305;
+  transition: 0.8s;
+}
+
+a:hover {
+  color: black;
+}
+
+h4:hover {
+  transform: scale(1.2);
 }
